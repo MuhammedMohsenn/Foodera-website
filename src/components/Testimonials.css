@@ -1,0 +1,74 @@
+.testimonials {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: #a82d49;
+}
+
+.testimonials h1 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+  font-family: "Quicksand", sans-serif;
+  margin: 0 0 50px 0;
+}
+
+.testimonials .carousel-item {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.testimonials .carousel-item img {
+  max-width: 80px;
+  border-radius: 50%;
+}
+
+.testimonials .carousel-caption {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.testimonials .carousel-caption p {
+  font-size: 21px;
+  line-height: 33px;
+  font-weight: 300;
+  color: #111;
+  letter-spacing: 0;
+}
+
+.testimonials .carousel-caption span {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+  letter-spacing: 0.2px;
+  color: #a82d49;
+}
+
+.carousel-indicators button {
+  border: none;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  padding: 0 5px;
+  margin: 12px 5px;
+  background-color: #a82d49;
+}
+
+.testimonials .carousel-control-prev,
+.testimonials .carousel-control-next {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media (min-width: 992px) {
+  .testimonials .carousel-caption p {
+    padding: 0 21% 20px;
+  }
+}

@@ -1,0 +1,36 @@
+.stats {
+  background-color: #a82d49;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+@media (max-width: 575px) {
+  .stats {
+    height: 445px;
+  }
+
+  .stats .info {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .stats .info {
+    margin-bottom: 20px;
+  }
+}
+
+.stats h2 {
+  color: #fff;
+  font-size: 40px;
+  font-family: Quicksand;
+  font-weight: 700;
+}
+.stats h6 {
+  font-size: 12px;
+  font-family: Roboto;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 700;
+}

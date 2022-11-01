@@ -1,0 +1,35 @@
+.asked-questions {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.asked-questions .title {
+  color: #43121d;
+  margin-bottom: 15px;
+  font-size: 36px;
+  line-height: 46px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.asked-questions .row {
+  padding-top: 40px;
+}
+
+.asked-questions .info {
+  padding-top: 30px;
+}
+
+.asked-questions h5 {
+  font-family: "Quicksand", sans-serif;
+}
+
+.asked-questions p {
+  font-size: 16px;
+  color: #555;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
+}

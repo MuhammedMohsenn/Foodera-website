@@ -1,0 +1,85 @@
+#about-us {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#about-us .row {
+  align-items: center;
+}
+
+#about-us img {
+  border-radius: 10px;
+}
+
+#about-us h2 {
+  font-size: 32px;
+  line-height: 45px;
+  color: #43121d;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0.1px;
+}
+
+#about-us p {
+  font-size: 16px;
+  color: #555;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+#about-us button {
+  background-color: #a82d49;
+  color: #fff;
+  border: none;
+  width: 165px;
+  height: 48px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 11px 28px;
+  border-radius: 0px;
+  transition: all 0.1s;
+}
+
+#about-us button:hover {
+  color: #a82d49;
+  background-color: #fff;
+  border: 3px solid #a82d49;
+}
+
+#about-us ul {
+  margin: 0;
+  padding: 0 0 25px 0;
+  list-style: none;
+}
+
+#about-us li {
+  padding: 6px 0 9px 0px;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+#about-us svg {
+  min-width: 30px;
+  color: #a82d49;
+  padding-right: 5px;
+  font-size: 25px;
+}
+
+.third {
+  padding-top: 100px;
+}
+
+@media (min-width: 575px) {
+  .forth {
+    padding-top: 100px;
+  }
+}

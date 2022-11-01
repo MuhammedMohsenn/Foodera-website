@@ -1,0 +1,65 @@
+.video-action {
+  background-image: url("../assets/videoAction.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  height: 480px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+}
+
+.video-action .info {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.video-action h1 {
+  color: #a82d49;
+  font-family: Quicksand, sans-serif;
+  font-weight: 700;
+  margin: 0px;
+  letter-spacing: 0.1px;
+}
+
+.video-action p {
+  font-size: 16px;
+  color: #555;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.5px;
+  padding-top: 20px;
+  width: 77%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.video-action a {
+  color: #43121d;
+  transition: all 0.4s ease 0s;
+  display: block;
+}
+
+.video-action a:hover {
+  color: #a82d49;
+  text-decoration: none;
+}
+
+@media (max-width: 575px) {
+  .video-action h1 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .video-action {
+    height: 450px;
+  }
+
+  .video-action a {
+    margin-top: 3.5rem;
+  }
+}

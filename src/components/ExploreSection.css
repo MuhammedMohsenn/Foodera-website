@@ -1,0 +1,97 @@
+#explore-foods {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#explore-foods .info {
+  text-align: center;
+}
+
+#explore-foods .info h1 {
+  color: #43121d;
+  margin: 0 0 15px 0;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+  font-family: "Quicksand", sans-serif;
+}
+
+#explore-foods .info p {
+  font-size: 16px;
+  color: #555;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
+  width: 80%;
+  margin: 0 auto 4rem auto;
+}
+
+#explore-foods img {
+  border-radius: 10px;
+}
+
+#explore-foods .info-wrap {
+  padding: 15px;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+}
+
+#explore-foods h4 {
+  color: #43121d;
+  font-size: 18px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0.1px;
+}
+
+#explore-foods p {
+  font-size: 16px;
+  color: #555;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
+}
+#explore-foods .price {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#explore-foods .price span {
+  font-weight: bold;
+  font-size: 24px;
+  color: #a82d49;
+  padding-right: 10px;
+}
+
+#explore-foods .price del {
+  font-weight: 400;
+  font-size: 24px;
+  color: #999;
+}
+
+#explore-foods .btn-wrap {
+  padding: 15px;
+}
+
+#explore-foods .btn-wrap button {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 11px 28px;
+  border: 3px solid #a82d49;
+  border-radius: 0px;
+  font-family: Roboto;
+  color: #fff;
+  background-color: #a82d49;
+  transition: all 0.3s;
+}
+
+#explore-foods .btn-wrap button:hover {
+  border: 3px solid #a82d49;
+  color: #a82d49;
+  background-color: #fff;
+}
